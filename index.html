@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -70,7 +69,7 @@
       <h1 id="tr-title">Task App Gizlilik Politikası</h1>
 
       <p class="updated">
-        <strong>Son güncelleme:</strong> 31 Ekim 2026
+        <strong>Son güncelleme:</strong> 4 Kasım 2026
       </p>
 
       <p>
@@ -149,6 +148,7 @@
         <li>Gönderilen geri bildirimleri değerlendirmek.</li>
         <li>Görev ve su tüketimi hatırlatmalarını planlamak.</li>
         <li>Uygulamanın çalışmasını sağlamak ve teknik sorunları araştırmak.</li>
+        <li>Reklam göstermek, reklam performansını ölçmek ve reklam hizmetlerinin güvenliğini sağlamak.</li>
       </ul>
 
       <h2>3. Yerel bildirimler</h2>
@@ -198,6 +198,62 @@
         geçmişi, tema ve dil tercihleri gibi yerel uygulama
         verileri Supabase'e gönderilmez.
       </p>
+
+      <h3>Google AdMob ve reklamlar</h3>
+
+<p>
+  Task App, uygulama içerisinde reklam göstermek amacıyla
+  Google AdMob hizmetini ve Google Mobile Ads SDK'sını kullanır.
+  Reklamlar, uygulamanın ana sayfasında banner biçiminde
+  görüntülenebilir.
+</p>
+
+<p>
+  Reklam hizmetinin sunulması, ölçülmesi, güvenliğinin
+  sağlanması ve dolandırıcılığın önlenmesi amacıyla
+  Google Mobile Ads SDK aşağıdaki bilgileri otomatik
+  olarak toplayabilir ve Google ile paylaşabilir:
+</p>
+
+<ul>
+  <li>IP adresi ve yaklaşık konumun belirlenmesinde kullanılabilecek ağ bilgileri.</li>
+  <li>Uygulama açılışı, reklam görüntüleme ve dokunma gibi uygulama etkileşimleri.</li>
+  <li>Uygulamanın ve SDK'nın performansına ilişkin tanılama bilgileri.</li>
+  <li>Android Reklam Kimliği (Advertising ID), App Set ID ve ilgili cihaz veya hesap tanımlayıcıları.</li>
+</ul>
+
+<p>
+  Bu bilgiler reklam sunumu, reklam ölçümü, analiz ve
+  dolandırıcılığın önlenmesi amaçlarıyla işlenebilir.
+  Google Mobile Ads SDK tarafından aktarılan veriler
+  TLS kullanılarak aktarım sırasında şifrelenir.
+</p>
+
+<p>
+  Uygulama, reklam isteklerinde kişiselleştirilmemiş
+  reklamları talep edecek şekilde yapılandırılmıştır.
+  Bununla birlikte bu ayar, reklam hizmetinin çalışması
+  için gerekli teknik verilerin işlenmesini tamamen
+  engellemez.
+</p>
+
+<p>
+  Android Reklam Kimliği, cihaz ayarlarından
+  sıfırlanabilir veya silinebilir. Reklam ve gizlilik
+  uygulamaları hakkında daha fazla bilgi için
+  <a href="https://policies.google.com/technologies/ads"
+     target="_blank"
+     rel="noopener noreferrer">
+    Google Reklam Politikası
+  </a>
+  ve
+  <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure"
+     target="_blank"
+     rel="noopener noreferrer">
+    Google AdMob Veri Açıklaması
+  </a>
+  sayfalarını inceleyebilirsin.
+</p>
 
       <p>
         Supabase'in gizlilik uygulamaları hakkında daha
@@ -324,7 +380,7 @@
       <h1 id="en-title">Task App Privacy Policy</h1>
 
       <p class="updated">
-        <strong>Last updated:</strong> October 31, 2026
+        <strong>Last updated:</strong> November 4, 2026
       </p>
 
       <p>
@@ -402,6 +458,7 @@
         <li>To review feedback submitted through the app.</li>
         <li>To schedule task and water drinking reminders.</li>
         <li>To operate the app and investigate technical issues.</li>
+        <li>To display advertisements, measure ad performance, and maintain the security of advertising services.</li>
       </ul>
 
       <h2>3. Local notifications</h2>
@@ -438,6 +495,61 @@
       </p>
 
       <h2>4. Third-party services</h2>
+
+      <h3>Google AdMob and advertising</h3>
+
+<p>
+  Task App uses Google AdMob and the Google Mobile Ads SDK
+  to display advertisements within the application.
+  Banner advertisements may be displayed on the app's
+  home screen.
+</p>
+
+<p>
+  To provide advertising services, measure ad performance,
+  maintain security, and prevent fraud, the Google Mobile
+  Ads SDK may automatically collect and share the following
+  information with Google:
+</p>
+
+<ul>
+  <li>IP address and network information that may be used to estimate general location.</li>
+  <li>App interactions such as app launches, ad views, and taps.</li>
+  <li>Diagnostic information relating to app and SDK performance.</li>
+  <li>Android Advertising ID, App Set ID, and relevant device or account identifiers.</li>
+</ul>
+
+<p>
+  This information may be processed for advertising,
+  advertising measurement, analytics, and fraud prevention.
+  Data transmitted by the Google Mobile Ads SDK is encrypted
+  in transit using TLS.
+</p>
+
+<p>
+  The app is configured to request non-personalized
+  advertisements. However, this setting does not
+  completely prevent the processing of technical
+  information required for advertising services.
+</p>
+
+<p>
+  The Android Advertising ID can be reset or deleted
+  through device settings. For more information about
+  advertising and privacy practices, please review
+  the
+  <a href="https://policies.google.com/technologies/ads"
+     target="_blank"
+     rel="noopener noreferrer">
+    Google Advertising Policy
+  </a>
+  and the
+  <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure"
+     target="_blank"
+     rel="noopener noreferrer">
+    Google AdMob Data Disclosure
+  </a>.
+</p>
 
       <p>
         Task App uses Supabase for account authentication
